@@ -17,7 +17,8 @@ FIELDS = [
     'Age', 'BMI', 'CK-MB', 'Cholesterol', 'Diabetes', 'Diastolic blood pressure',
     'Diet', 'Exercise Hours Per Week', 'Heart rate', 'Medication Use', 'Obesity',
     'Physical Activity Days Per Week', 'Previous Heart Problems', 'Sedentary Hours Per Day',
-    'Sleep Hours Per Day', 'Stress Level', 'Systolic blood pressure', 'Triglycerides', 'Troponin'
+    'Sleep Hours Per Day', 'Stress Level', 'Systolic blood pressure', 'Triglycerides', 'Troponin',
+    'Blood sugar'
 ]
 
 @router.get("/", response_class=HTMLResponse)
