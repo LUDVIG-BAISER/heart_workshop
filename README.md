@@ -7,16 +7,19 @@
    cd heart_workshop
 
 4) В папке с проектом активировать виртуальное окружение.
+
+   python -m venv .venv
+
    
    source .venv/bin/activate          # для Linux/macOS
    
    .venv\Scripts\activate               # для Windows
 
-5) Установить зависимости
+6) Установить зависимости
 
    pip install -r requirements.txt
 
-6) Активировать FastAPI сервер.
+7) Активировать FastAPI сервер.
 
      uvicorn app.main:app --reload
 
