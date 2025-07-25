@@ -13,6 +13,7 @@ venv/
 data/
 heart_test.csv
 heart_train.csv
+submission.csv
 
 # CatBoost logs
 catboost_info/
